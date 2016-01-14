@@ -15,7 +15,7 @@ if (!is_array($unwanted_hosts)) $unwanted_hosts = array();
 <html>
 <head>
 <title>Nagios Dashboard</title>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery/1.8.2/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 document.refresh_every_ms = <?php echo (isset($refresh_every_ms) ? $refresh_every_ms : 20000); ?>;
